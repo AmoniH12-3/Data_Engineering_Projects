@@ -412,17 +412,21 @@ More importantly, this project demonstrates how data can be used to answer pract
 ---
 
 ## Project Links
-- - [Dataset Update Script](1_EDA/0_update_dataset.sql)
-- [Browse SQL Analysis Files](1_EDA/)
 
-- **GitHub Repository:** [https://github.com/AmoniH12-3/Data_Engineering_Projects/tree/main]
+- **GitHub Repository:** [Data Engineering Job Market](./)
 - **SQL Queries:** [Browse the 1_EDA folder](./1_EDA/)
+- **Dataset Update Script:** [0_update_dataset.sql](./1_EDA/0_update_dataset.sql)
+- **Visualizations:**
+  - [Project Header Image](./1_EDA/Data%20Engineer%20project%20image.png)
+  - [Data Warehouse Schema](./1_EDA/data-warehouse-schema.png)
+  - [Top Demanded Skills](./1_EDA/top_demanded_skills.png)
+  - [Top Paying Skills](./1_EDA/top_paying_skills.png)
+  - [Optimal Skills](./1_EDA/optimal_skills.png)
 - **Dataset:** [DataNerd.tech](https://datanerd.tech/)
-- **Visualizations:** [Browse the images folder](./images/)
 
 ## Author
 
-**Amoni Haynes**
+Amoni Haynes
 
 Data Analytics | SQL | Data Engineering
 
