@@ -417,7 +417,7 @@ More importantly, this project demonstrates how data can be used to answer pract
 - - [Dataset Update Script](1_EDA/0_update_dataset.sql)
 - [Browse SQL Analysis Files](1_EDA/)
 
-- **GitHub Repository:** [Add repository URL]
+- **GitHub Repository:** [https://github.com/AmoniH12-3/Data_Engineering_Projects/tree/main]
 - **SQL Queries:** [Browse the 1_EDA folder](./1_EDA/)
 - **Dataset:** [DataNerd.tech](https://datanerd.tech/)
 - **Visualizations:** [Browse the images folder](./images/)
