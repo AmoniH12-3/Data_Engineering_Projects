@@ -130,14 +130,13 @@ To identify the most requested skills, I joined the job postings table to the sk
 
 **SQL query:**
 
-```sql
-SELECT
+```SELECT
     sd.skills,
     COUNT(jpf.*) AS demand_count
-FROM job_postings_fact AS jpf
-INNER JOIN skills_job_dim AS sjd
+FROM data_jobs_bonus.job_postings_fact AS jpf
+INNER JOIN data_jobs_bonus.skills_job_dim AS sjd
     ON jpf.job_id = sjd.job_id
-INNER JOIN skills_dim AS sd
+INNER JOIN data_jobs_bonus.skills_dim AS sd
     ON sjd.skill_id = sd.skill_id
 WHERE
     jpf.job_title_short = 'Data Engineer'
@@ -188,10 +187,10 @@ SELECT
     sd.skills,
     COUNT(sd.skills) AS skill_count,
     ROUND(MEDIAN(jpf.salary_year_avg), 0) AS median_salary
-FROM job_postings_fact AS jpf
-INNER JOIN skills_job_dim AS sjd
+FROM data_jobs_bonus.job_postings_fact AS jpf
+INNER JOIN data_jobs_bonus.skills_job_dim AS sjd
     ON jpf.job_id = sjd.job_id
-INNER JOIN skills_dim AS sd
+INNER JOIN data_jobs_bonus.skills_dim AS sd
     ON sjd.skill_id = sd.skill_id
 WHERE
     jpf.job_title_short = 'Data Engineer'
@@ -278,10 +277,10 @@ SELECT
         * MEDIAN(jpf.salary_year_avg) / 1000000,
         2
     ) AS salary_demand_opportunity_score
-FROM job_postings_fact jpf
-INNER JOIN skills_job_dim sjd
+FROM data_jobs_bonus.job_postings_fact AS jpf
+INNER JOIN data_jobs_bonus.skills_job_dim AS sjd
     ON jpf.job_id = sjd.job_id
-INNER JOIN skills_dim sd
+INNER JOIN data_jobs_bonus.skills_dim AS sd
     ON sjd.skill_id = sd.skill_id
 WHERE
     jpf.job_title_short = 'Data Engineer'
