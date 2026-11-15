@@ -2,7 +2,7 @@
 
 ### A SQL-Driven Analysis of Skills, Salaries, and Remote Job Opportunities
 
-![Data Engineering Project](1_EDA/Images/Data%20Engineer%20project%20image.png)
+![Data Engineering Project](1_EDA/Data%20Engineer%20project%20image.png)
 
 ---
 
@@ -76,7 +76,7 @@ The analysis uses SQL to:
 
 The analysis uses a relational data warehouse with a fact table, dimension tables, and a bridge table connecting job postings to their associated skills.
 
-![Data Warehouse Schema](1_EDA/images/data-warehouse-schema.png)
+![Data Warehouse Schema](1_EDA/data-warehouse-schema.png)
 
 | Table | Type | Purpose |
 |---|---|---|
@@ -149,7 +149,7 @@ ORDER BY demand_count DESC
 LIMIT 10;
 ```
 
-[View the SQL query](./1_EDA/01_top_demanded_skills.sql)
+[View SQL Query](1_EDA/01_top_demanded_skills.sql)
 
 **Results:**
 
@@ -175,7 +175,7 @@ LIMIT 10;
 
 **Visualization:**
 
-![Top Demanded Skills](1_EDA/images/top_demanded_skills.png)
+![Top Demanded Skills](1_EDA/top_demanded_skills.png)
 
 ### 02 — Where the Highest Salaries Are
 
@@ -205,7 +205,7 @@ ORDER BY median_salary DESC
 LIMIT 25;
 ```
 
-[View the SQL query](./1_EDA/02_top_paying_skills.sql)
+[View SQL Query](1_EDA/02_top_paying_skills.sql)
 
 **Results:**
 
@@ -246,7 +246,7 @@ LIMIT 25;
 
 **Visualization:**
 
-![Top Paying Skills](1_EDA/images/top_paying_skills.png)
+![Top Paying Skills](1_EDA/top_paying_skills.png)
 
 ### 03 — The Salary vs. Demand Advantage
 
@@ -295,7 +295,7 @@ ORDER BY salary_demand_opportunity_score DESC
 LIMIT 25;
 ```
 
-[View the SQL query](./1_EDA/03_optimal_skills.sql)
+[View SQL Query](1_EDA/03_optimal_skills.sql)
 
 **Results:**
 
@@ -336,7 +336,7 @@ LIMIT 25;
 
 **Visualization:**
 
-![Optimal Skills](1_EDA/images/optimal_skills.png)
+![Optimal Skills](1_EDA/optimal_skills.png)
 
 ### Understanding Logarithmic Demand
 
@@ -414,6 +414,8 @@ More importantly, this project demonstrates how data can be used to answer pract
 ---
 
 ## Project Links
+- - [Dataset Update Script](1_EDA/0_update_dataset.sql)
+- [Browse SQL Analysis Files](1_EDA/)
 
 - **GitHub Repository:** [Add repository URL]
 - **SQL Queries:** [Browse the 1_EDA folder](./1_EDA/)
