@@ -99,17 +99,15 @@ The `skills_job_dim` table resolves the many-to-many relationship between job po
 
 ## 5. Repository Structure
 
-```text
-data-engineering-job-market/
+```Data_Engineering_Projects/
 │
 ├── 1_EDA/
 │   ├── 0_update_dataset.sql
 │   ├── 01_top_demanded_skills.sql
 │   ├── 02_top_paying_skills.sql
-│   └── 03_optimal_skills.sql
-│
-├── images/
-│   ├── project-overview.png
+│   ├── 03_optimal_skills.sql
+│   │
+│   ├── Data Engineer project image.png
 │   ├── data-warehouse-schema.png
 │   ├── top_demanded_skills.png
 │   ├── top_paying_skills.png
@@ -118,7 +116,7 @@ data-engineering-job-market/
 └── README.md
 ```
 
-The `1_EDA` folder contains the SQL scripts used to update the dataset and perform the analysis. The `images` folder contains the project overview and visualizations.
+The 1_EDA folder contains the SQL scripts used to update the dataset and perform the analysis, along with the project header image and visualizations. The README links directly to these files.
 
 *Image paths are placeholders until the corresponding files are added to the repository.*
 
