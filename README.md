@@ -5,7 +5,7 @@ Hands-on projects exploring data engineering concepts, SQL development, data mod
 ## Projects
 
 ### [1_EDA — Exploratory Data Analysis](./1_EDA/)
-![Data Engineering Project](Images/Data%20Engineer%20project%20image.png)
+![Data Engineering Project](./1_EDA/Images/Data%20Engineer%20project%20image.png)
 A SQL-driven analysis of the Data Engineering job market, exploring in-demand technical skills, salary trends, and the relationship between compensation and job demand.
 
 **Highlights:**
