@@ -1,7 +1,6 @@
 # The Data Engineering Job Market
 
 ### A SQL-Driven Analysis of Skills, Salaries, and Remote Job Opportunities
-
 ![Data Engineering Project](1_EDA/Data%20Engineer%20project%20image.png)
 
 ---
@@ -99,7 +98,8 @@ The `skills_job_dim` table resolves the many-to-many relationship between job po
 
 ## 5. Repository Structure
 
-```Data_Engineering_Projects/
+```text
+Data_Engineering_Projects/
 │
 ├── 1_EDA/
 │   ├── 0_update_dataset.sql
@@ -169,8 +169,6 @@ LIMIT 10;
 - Spark and Airflow highlight the demand for distributed data processing and workflow orchestration.
 - Snowflake and Databricks also feature prominently, reflecting the importance of modern data platforms.
 
-**Visualization:**
-
 ![Top Demanded Skills](1_EDA/top_demanded_skills.png)
 
 ### 02 — Where the Highest Salaries Are
@@ -239,9 +237,7 @@ LIMIT 25;
 - Kubernetes and Airflow also demonstrate strong salary potential.
 - Kafka, Spark, and PySpark show the value associated with data processing and streaming technologies.
 - SQL and Python have lower median salaries than some specialized technologies, but appear in substantially more job-skill associations.
-
-**Visualization:**
-
+  
 ![Top Paying Skills](1_EDA/top_paying_skills.png)
 
 ### 03 — The Salary vs. Demand Advantage
@@ -329,8 +325,6 @@ LIMIT 25;
 - AWS, SQL, and Airflow follow closely, each scoring 0.93.
 - Terraform has the highest median salary in this analysis, but its lower demand count places it below several more frequently requested technologies.
 - Evaluating salary and demand together provides a different perspective than looking at either metric independently.
-
-**Visualization:**
 
 ![Optimal Skills](1_EDA/optimal_skills.png)
 
