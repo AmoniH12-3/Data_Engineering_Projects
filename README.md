@@ -118,8 +118,6 @@ The `skills_job_dim` table resolves the many-to-many relationship between job po
 
 The 1_EDA folder contains the SQL scripts used to update the dataset and perform the analysis, along with the project header image and visualizations. The README links directly to these files.
 
-*Image paths are placeholders until the corresponding files are added to the repository.*
-
 ## 6. Analysis & Results
 
 ### 01 — The Skills Employers Are Searching For
