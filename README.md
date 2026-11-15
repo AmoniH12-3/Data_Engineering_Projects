@@ -2,7 +2,8 @@
 
 ### A SQL-Driven Analysis of Skills, Salaries, and Remote Job Opportunities
 
-![Project Overview](images/project-overview.png)
+![Project Overview](
+)
 
 ---
 
@@ -76,7 +77,7 @@ The analysis uses SQL to:
 
 The analysis uses a relational data warehouse with a fact table, dimension tables, and a bridge table connecting job postings to their associated skills.
 
-![Data Warehouse Schema](images/data-warehouse-schema.png)
+![Data Warehouse Schema](1_EDA/images/data-warehouse-schema.png)
 
 | Table | Type | Purpose |
 |---|---|---|
@@ -175,7 +176,7 @@ LIMIT 10;
 
 **Visualization:**
 
-![Top Demanded Skills](images/top_demanded_skills.png)
+![Top Demanded Skills](1_EDA/images/top_demanded_skills.png)
 
 ### 02 — Where the Highest Salaries Are
 
@@ -246,7 +247,7 @@ LIMIT 25;
 
 **Visualization:**
 
-![Highest Paying Skills](images/top_paying_skills.png)
+![Top Paying Skills](1_EDA/images/top_paying_skills.png)
 
 ### 03 — The Salary vs. Demand Advantage
 
@@ -336,7 +337,7 @@ LIMIT 25;
 
 **Visualization:**
 
-![Salary vs Demand Advantage](images/optimal_skills.png)
+![Optimal Skills](1_EDA/images/optimal_skills.png)
 
 ### Understanding Logarithmic Demand
 
