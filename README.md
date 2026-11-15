@@ -3,7 +3,6 @@
 ### A SQL-Driven Analysis of Skills, Salaries, and Remote Job Opportunities
 
 ![Data Engineering Project](1_EDA/Images/Data%20Engineer%20project%20image.png)
-)
 
 ---
 
