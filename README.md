@@ -130,7 +130,8 @@ To identify the most requested skills, I joined the job postings table to the sk
 
 **SQL query:**
 
-```SELECT
+```sql
+SELECT
     sd.skills,
     COUNT(jpf.*) AS demand_count
 FROM data_jobs_bonus.job_postings_fact AS jpf
