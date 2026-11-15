@@ -430,4 +430,4 @@ Amoni Haynes
 
 Data Analytics | SQL | Data Engineering
 
-[LinkedIn](ADD-LINKEDIN-URL) · [GitHub](ADD-GITHUB-URL)
+[LinkedIn](https://www.linkedin.com/in/amoni-haynes-0b0bb6154/) · [GitHub](https://github.com/AmoniH12-3)
